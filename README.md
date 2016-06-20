@@ -21,7 +21,7 @@ And then execute:
 
 Run generator (run delayed job generators first!)
 
-    $ rails generate progress_job:install
+    $ rails generate dj_progress_job:install
 
 ## Usage
 
@@ -53,12 +53,6 @@ There is also a controller which returns the delayed job with calculated percent
 
     GET 'dj_progress-jobs/:job_id/'
 
-## Examples
-
-### Demo
-
-[demo](http://progress-job-demo.hadjic.com)
-[source](https://github.com/d4be4st/progress_job_demo)
 
 ### Progress job class
 
