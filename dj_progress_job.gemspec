@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["gvenki911@gmail.com"]
   spec.summary       = %q{Delayed jobs with progress.}
   spec.description   = %q{Add progress feature to delayed jobs}
-  spec.homepage      = "git@github.com:venki911/dj_progress_job.git"
+  spec.homepage      = "https://github.com/venki911/dj_progress_job.git"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
