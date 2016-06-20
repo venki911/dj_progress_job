@@ -5,7 +5,7 @@ require 'dj_progress_job/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "dj_progress_job"
-  spec.version       = ProgressJob::VERSION
+  spec.version       = DjProgressJob::VERSION
   spec.authors       = ["vijay p"]
   spec.email         = ["gvenki911@gmail.com"]
   spec.summary       = %q{Delayed jobs with progress.}
